@@ -23,5 +23,7 @@ WebUI.click(findTestObject('Object Repository/git/Page_Maybank2u/button_LOGIN'))
 
 WebUI.click(findTestObject('Object Repository/git/Page_Maybank2u/button_YES'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 
