@@ -13,3 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+
+WebUI.setText(findTestObject('Object Repository/git/Page_Maybank2u/input_Humanising Banking_username'), 'mosajgohar1')
+
+WebUI.click(findTestObject('Object Repository/git/Page_Maybank2u/button_LOGIN'))
+
+WebUI.click(findTestObject('Object Repository/git/Page_Maybank2u/button_YES'))
+
+WebUI.closeBrowser()
+
