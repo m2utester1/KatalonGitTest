@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Firefox 67.0,,,2019-06-12 09:13:46,2019-06-12 09:14:33,47.158s,PASSED
+,,,,,,,
+Test Cases/m2u login,Firefox 67.0,,,2019-06-12 09:13:47,2019-06-12 09:14:33,46.328s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-06-12 09:13:49,2019-06-12 09:14:07,18.436s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Firefox 67.0,,,2019-06-12 09:14:07,2019-06-12 09:14:20,12.559s,PASSED
+"setText(findTestObject(""Object Repository/git/Page_Maybank2u/input_Humanising Banking_username""), ""mosajgohar1"")",Firefox 67.0,,,2019-06-12 09:14:20,2019-06-12 09:14:21,0.853s,PASSED
+"click(findTestObject(""Object Repository/git/Page_Maybank2u/button_LOGIN""))",Firefox 67.0,,,2019-06-12 09:14:21,2019-06-12 09:14:21,0.403s,PASSED
+"click(findTestObject(""Object Repository/git/Page_Maybank2u/button_YES""))",Firefox 67.0,,,2019-06-12 09:14:21,2019-06-12 09:14:23,2.356s,PASSED
+delay(5),Firefox 67.0,,,2019-06-12 09:14:23,2019-06-12 09:14:28,5.080s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-06-12 09:14:28,2019-06-12 09:14:33,4.614s,PASSED
